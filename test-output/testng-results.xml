@@ -1,47 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="7081" started-at="2018-07-21T14:08:09Z" finished-at="2018-07-21T14:08:16Z">
+  <suite name="Suite" duration-ms="7027" started-at="2018-07-21T17:07:58Z" finished-at="2018-07-21T17:08:05Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="5038" started-at="2018-07-21T14:08:09Z" finished-at="2018-07-21T14:08:14Z">
+    <test name="Test2" duration-ms="6942" started-at="2018-07-21T17:07:58Z" finished-at="2018-07-21T17:08:05Z">
       <class name="com.letzautomate.testcases.main">
-        <test-method status="PASS" signature="runSuite(java.lang.String)[pri:0, instance:com.letzautomate.testcases.main@6093dd95]" name="runSuite" duration-ms="5008" started-at="2018-07-21T19:38:09Z" finished-at="2018-07-21T19:38:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ie]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runSuite -->
-      </class> <!-- com.letzautomate.testcases.main -->
-    </test> <!-- Test1 -->
-    <test name="Test3" duration-ms="5203" started-at="2018-07-21T14:08:09Z" finished-at="2018-07-21T14:08:14Z">
-      <class name="com.letzautomate.testcases.main">
-        <test-method status="PASS" signature="runSuite(java.lang.String)[pri:0, instance:com.letzautomate.testcases.main@6e06451e]" name="runSuite" duration-ms="5173" started-at="2018-07-21T19:38:09Z" finished-at="2018-07-21T19:38:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runSuite -->
-      </class> <!-- com.letzautomate.testcases.main -->
-    </test> <!-- Test3 -->
-    <test name="Test2" duration-ms="7081" started-at="2018-07-21T14:08:09Z" finished-at="2018-07-21T14:08:16Z">
-      <class name="com.letzautomate.testcases.main">
-        <test-method status="PASS" signature="runSuite(java.lang.String)[pri:0, instance:com.letzautomate.testcases.main@31a5c39e]" name="runSuite" duration-ms="7052" started-at="2018-07-21T19:38:09Z" finished-at="2018-07-21T19:38:16Z">
+        <test-method status="PASS" signature="runSuite(java.lang.String, java.lang.String)[pri:0, instance:com.letzautomate.testcases.main@31a5c39e]" name="runSuite" duration-ms="6921" started-at="2018-07-21T22:37:58Z" finished-at="2018-07-21T22:38:05Z">
           <params>
             <param index="0">
               <value>
                 <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C://BehavioralDriven/src/test/resources/testcases/testcases2.xls]]>
               </value>
             </param>
           </params>
@@ -50,5 +25,25 @@
         </test-method> <!-- runSuite -->
       </class> <!-- com.letzautomate.testcases.main -->
     </test> <!-- Test2 -->
+    <test name="Test1" duration-ms="7027" started-at="2018-07-21T17:07:58Z" finished-at="2018-07-21T17:08:05Z">
+      <class name="com.letzautomate.testcases.main">
+        <test-method status="PASS" signature="runSuite(java.lang.String, java.lang.String)[pri:0, instance:com.letzautomate.testcases.main@6093dd95]" name="runSuite" duration-ms="7008" started-at="2018-07-21T22:37:58Z" finished-at="2018-07-21T22:38:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C://BehavioralDriven/src/test/resources/testcases/testcases1.xls]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSuite -->
+      </class> <!-- com.letzautomate.testcases.main -->
+    </test> <!-- Test1 -->
   </suite> <!-- Suite -->
 </testng-results>

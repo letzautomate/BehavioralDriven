@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" parallel="tests">
-  <parameter name="browser" value="ie"/>
-  <test name="Test1(failed)" parallel="tests">
-    <parameter name="browser" value="ie"/>
+  <parameter name="testcasesFile" value="C://BehavioralDriven/src/test/resources/testcases/testcases1.xls"/>
+  <parameter name="browser" value="edge"/>
+  <test name="Test2(failed)" parallel="tests">
+    <parameter name="testcasesFile" value="C://BehavioralDriven/src/test/resources/testcases/testcases1.xls"/>
+    <parameter name="browser" value="edge"/>
     <classes>
       <class name="com.letzautomate.testcases.main">
         <methods>
@@ -11,5 +13,5 @@
         </methods>
       </class> <!-- com.letzautomate.testcases.main -->
     </classes>
-  </test> <!-- Test1(failed) -->
+  </test> <!-- Test2(failed) -->
 </suite> <!-- Failed suite [Suite] -->
