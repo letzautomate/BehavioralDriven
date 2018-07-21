@@ -1,4 +1,4 @@
-package com.letzautomate.Selenium;
+package com.letzautomate.selenium;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -14,7 +14,7 @@ import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
-import com.letzautomate.Constants.SeleniumConstants;
+import com.letzautomate.constants.SeleniumConstants;
 
 public class WebDriverManager {
 	

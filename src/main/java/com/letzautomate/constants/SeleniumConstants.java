@@ -1,4 +1,4 @@
-package com.letzautomate.Constants;
+package com.letzautomate.constants;
 
 public class SeleniumConstants {
 	
