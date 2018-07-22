@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.letzautomate.datasourcesutilities.ExcelUtilities">
+      <class name="com.letzautomate.testcases.main">
         <methods>
-          <include name="test"/>
+          <include name="runSuite"/>
         </methods>
-      </class> <!-- com.letzautomate.datasourcesutilities.ExcelUtilities -->
+      </class> <!-- com.letzautomate.testcases.main -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

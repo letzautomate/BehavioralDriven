@@ -8,12 +8,12 @@
       <class name="com.letzautomate.testcases.main"/>
     </classes>
   </test> <!-- Test -->
-  <test thread-count="5" name="Test2">
+  <!-- <test thread-count="5" name="Test2">
       <parameter name="browser" value="chrome"/>
       <parameter name="testcasesFile" value="C://BehavioralDriven/src/test/resources/testcases/testcases2.xls"/>
     <classes>
       <class name="com.letzautomate.testcases.main"/>
     </classes>
-  </test> <!-- Test -->
+  </test>  -->Test
   
 </suite> <!-- Suite -->

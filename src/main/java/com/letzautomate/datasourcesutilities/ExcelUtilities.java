@@ -64,6 +64,34 @@ public class ExcelUtilities {
 		
 	}
 	
+	public void updateExcelWith2DArrayData(String filePath, String sheetName, String[][] dataArray) throws EncryptedDocumentException, InvalidFormatException, FileNotFoundException, IOException{
+		
+		Workbook workbook = WorkbookFactory.create(new FileInputStream(filePath));
+		Sheet sheet = workbook.getSheet(sheetName);
+		Row row = null;
+		Cell cell = null;
+		
+		int numOfRows = dataArray.length;
+		int numOfColumns = dataArray[0].length;
+		
+		for(int rowIndex = 0 ; rowIndex < numOfRows; rowIndex ++ ) {
+			
+			if(sheet.getRow(rowIndex) == null ){
+				row = sheet.createRow(rowIndex);
+			}
+			for(int columnIndex = 0; columnIndex < numOfColumns; columnIndex ++){
+				if (row.getCell(columnIndex) == null) {
+					cell = row.createCell(columnIndex);
+					cell.setCellValue(dataArray[rowIndex][columnIndex]);
+				}
+			}
+			
+		}
+		FileOutputStream outputStream = new FileOutputStream(filePath);
+		workbook.write(outputStream);
+		workbook.close();	
+	}
+	
 	/*@Test
 	public void test() throws EncryptedDocumentException, InvalidFormatException, FileNotFoundException, IOException{
 		getExcelData("C:/BehavioralDriven/src/test/java/com/letzautomate/testsuite/testcases1.xls", "testcases");
